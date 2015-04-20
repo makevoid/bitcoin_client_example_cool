@@ -16,14 +16,14 @@ puts BC.balance
 # import hd private key seed
 
 
-Checks locally, no api calls, response accurate and very quick
+ # Checks locally, no api calls, response accurate and very quick
 
 
 ### blockchain send
 
-A thing very difficult to do without the blockchain, sign and push the transaction
+ # A thing very difficult to do without the blockchain, sign and push the transaction
 
-You dont have to pipushtx, you just need configured networking
+# You dont have to pipushtx, you just need configured networking
 
 
 
