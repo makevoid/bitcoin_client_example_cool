@@ -6,6 +6,9 @@ BC = BitcoinClient::Client.new 'bitcoin', RPC_PASSWORD
 puts BC.balance
 
 
+puts "see #{url = 'https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_list'}"
+
+
 ### blockchain watcher - used in BiWi
 
 # checkaddressbalance
@@ -24,7 +27,6 @@ puts BC.balance
  # A thing very difficult to do without the blockchain, sign and push the transaction
 
 # You dont have to pipushtx, you just need configured networking
-
 
 
 
