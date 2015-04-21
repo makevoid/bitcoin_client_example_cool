@@ -13,9 +13,15 @@ puts "see #{url = 'https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_
 
 # checkaddressbalance
 
-# multisig_address.derive
-   # BC.addmultisigaddress()
+# BC.balance "label|address"
 
+# hd.wallet.privatekey().derive (bitcore)
+   # BC.generatenewaddress() (this api, bitcoind yay)
+
+
+
+# basic security
+#
 # dumpprivker (manually CLI)
 # import hd private key seed
 
