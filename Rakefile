@@ -1,5 +1,5 @@
-task :default, :run
+task default: [:run]
 
-task :run do 
-  ruby "bitcoin_client_example_cool.rb"
+task :run do
+  ruby "bitcoin_client_cool.rb"
 end
