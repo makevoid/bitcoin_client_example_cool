@@ -6,7 +6,9 @@ Simple example on how to start an app using bitcoin-client or similar 1:1 bitcoi
 
 OSX/Linux
 
-- Download bitcoin core (bitcoin-qt or bitcoind) from bitcoin.org
+- Download bitcoin core (bitcoin-qt or bitcoind) from:
+
+##### http://bitcoin.org
 
 ### Bitcoin Core Configuration ( ~/.bitcoin/bitcoin.conf )
 
