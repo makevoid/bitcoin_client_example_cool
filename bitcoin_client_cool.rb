@@ -9,18 +9,19 @@ puts BC.balance
 puts "see #{url = 'https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_list'}"
 
 
-### blockchain watcher - used in BiWi
-
-# checkaddressbalance
-
+# Check Balance (of a label, or of an address)
+#
 # BC.balance "label|address"
 
-# hd.wallet.privatekey().derive (bitcore)
-   # BC.generatenewaddress() (this api, bitcoind yay)
+
+# Generate new address 
+#
+# BC.generatenewaddress() # => "1..." (returns an address) 
 
 
 
-# basic security
+
+# Basic security
 #
 # dumpprivker (manually CLI)
 # import hd private key seed
@@ -30,11 +31,11 @@ puts "see #{url = 'https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_
 
 
 
-### blockchain send
+### Send
 
-# A thing very difficult to do without the blockchain, sign and push the transaction
-
-# You dont have to pipushtx, you just need configured networking
+# BC.sendtoaddress "1MjTBm2TeHPAaXJnNGu6MyFqFnVm8g7Ys7", 0.001 # => "a2a2eb18cb051b5fe896a32b1cb20b179d981554b6bd7c5a956e56a0eecb04f1" 
+#
+# # that is the transaction hash
 
 
 
